@@ -1,0 +1,87 @@
+
+        * { font-family: sans-serif; }
+        body {
+            background: url("../imgs/blob0.svg") no-repeat center;
+            background-size: contain;
+            margin: 0;
+            padding: 0;
+        }
+        #main {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top: 60px;
+            text-align: center;
+            position: relative;
+            color: #666;
+            min-height: 350px;
+        }
+        #joke-container{
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .bubbles {
+            background: no-repeat center;
+            background-size: contain;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        #bubble1 { 
+            background-image: url("../imgs/blob1.svg");
+            top: 0;
+            right: 0;
+        }
+        #bubble2 {
+            background-image: url("../imgs/blob2.svg");
+            bottom: 0;
+            left: 0;
+        }
+        #message {
+            min-height: 100px;
+        }
+        #ratingButtonsContainer {
+            visibility: hidden;
+        }
+        .rateButton {
+            border-radius: 15px;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+        }
+        #sadButton {
+            background-color: #FFD6E8;
+        }
+        #normalButton {
+            background-color: #e1f09e;
+        }
+        #happyButton {
+            background-color: #A7F0BA;
+        }
+        #btnNextJoke {
+            background-color: #578caa;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 15px;
+            border: 1px solid #2a5a75;
+        }
+        #btnNextJoke:disabled{
+            background-color: #ddd;
+            color: #aaa;
+        }
+        #barcelona {
+            text-decoration: underline;
+        }
+        .tabs {
+            cursor: pointer;
+        }
+        #weather {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        #weather-info img{
+            vertical-align: middle;
+        }

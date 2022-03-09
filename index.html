@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/imgs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/imgs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/imgs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/imgs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/imgs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/imgs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/imgs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/imgs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/imgs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/imgs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Acudits</title>
+</head>
+<body>
+    <div id="main">
+        <div class="bubbles" id="bubble1"></div>
+        <div class="bubbles" id="bubble2"></div>
+        <div id="joke-container">
+            <h1>Ready to laugh?</h1>
+            <div id="message"><p>Click on next joke button.</p></div>
+            <div id="ratingButtonsContainer">
+                Rate this joke: 
+                <button id="sadButton" class="rateButton">: (</button>
+                <button id="normalButton" class="rateButton">: |</button>
+                <button id="happyButton" class="rateButton">: )</button>
+            </div>
+            <button id="btnNextJoke">Next joke</button>
+        </div>
+    </div>
+    <div id="weather">
+        Weather in...
+        <span class="tabs" id="barcelona">Barcelona</span> |
+        <span class="tabs" id="mylocation">My location</span>
+        <div id="weather-info"></div>
+    </div>
+    <script src="dist/index.js"></script>
+</body>
+</html>
